@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -8,49 +9,80 @@
 
  /*HEADER*/
     header {
+        /*position: sticky;
+        top: 0;*/
         text-align: center;
-        font-family: "Bitcount Prop Single", system-ui;
+        font-family: "Pacifico", cursive;
         font-size: xx-large;
-        display: -webkit-inline-box;     
+        display: -webkit-inline-box; 
         width: 100vw;
         height: 10vh;
-        color: greenyellow;
-        background-color:rgb(13, 11, 15) ;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-color:#ea899a;
     }
+
+     .links  {
+        margin-left: 1200px;
+        display: inline-block;
+        color: rgb(115, 25, 151);
+        font-family: "Pacifico", cursive;
+        font-size: large;
+        margin-top: 2%;
+        text-align: right;
+        text-decoration: none;
+    }
+    
+    .lk {
+        margin: 30px;
+        text-decoration: none;
+    }
+
+    .links :hover {
+        text-decoration: underline 3px solid white;
+    }
+
 
     .inicio {
         text-align: center;
         display: block;
         margin-top: auto;
         margin-bottom: auto;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     
     .LOGO   {
+        margin: 30px;
+        border-radius: 50px;
         display: block;
         margin: auto auto auto;
         width: 50px;
         height: 50px;
     }
 
-    .links  {
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 1410px;
-        display: block;
-        color: rgb(115, 25, 151);
-        font-family: "Bitcount Prop Single", system-ui;
-        font-size: medium;    
-    }
 
  /*MAIN*/   
-    main  {
-        font-family: "Bitcount Prop Single", system-ui;
+    .cuerpo2 {
+        
+        width: 100vw;
+        height: 90vh;
+        background-image: url("../media/16132615.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .cuerpo  {
+        padding-top: 180px;
+        padding-bottom: auto;
+        background-image: url();
+        font-family: "Pacifico", cursive;
         font-size: medium;    
         text-align: center;
         width: 100vw;
-        height: 100vh;
-        background-color: rgb(6, 6, 36);
+        height: 150vh;
+        background-color: rgb(255, 255, 255);
+        vertical-align: bottom;
     }
 
     .card {     
@@ -59,9 +91,10 @@
         margin: 15px;
         color: aliceblue;
         display: inline-block; 
-        border: solid rgb(253, 253, 250) 2px;
-        background-color: rgb(13, 12, 14);
-        vertical-align: top;   
+        
+        background-color: rgb(255, 255, 255);
+        vertical-align: bottom;
+        box-shadow: 0px 2px 10px #ea899a;
     }
 
     .card__link {       
@@ -85,37 +118,171 @@
  
 /*FOOTER*/
 
+
+
     footer {
-        text-align: center;
         display: inline-block;
+        color: aliceblue;
+        text-align: center;
         width: 100vw;
-        height: 25vh;
-        background-color: rgb(7, 5, 27);
+        height: 35vh;
+        background-color: #008080;
     }
 
     .image__FOOTER {
-        margin: 10% auto 5% auto  ;
         display: inline-block;
         width: 80px;
         height: 80px;
+        margin: 15px;
+        vertical-align: bottom; 
     }
 
+    .info {
+        font-size: x-large;
+        margin-top: 80px;
+        display: inline-block;
+        list-style-image: none;
+        vertical-align: top; 
+    }
 /*----------------------------------------------------------------------------------------------*/
 
     .links2 {
-        margin-right: 10px;
+        margin-left: 400px;
         text-align: right;
         margin-top: auto;
         margin-bottom: auto;
         width: 60%;
         color: rgb(115, 25, 151);
-        font-family: "Bitcount Prop Single", system-ui;
-        font-size: medium;    
+        font-family: "Pacifico", cursive;
+        font-size: large;    
     }   
+
+    .links2 :hover {
+    text-decoration: underline 3px solid white;
+    }
+
+    .lk1 {
+        margin-right: 55px;
+        text-decoration: none;
+    }
+
     .LOGO2   {
+        text-align: center;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+
+/*-----------------------------------------Iniciar Sesion-----------------------------------------------------*/
     
-    display: block;
-    margin: auto auto auto;
-    width: 50px;
-    height: 50px;
-}
+
+    .aux1 {
+        display: -webkit-inline-box; 
+        width: 100vw;
+        height: 11vh;
+        text-decoration: none;
+        text-align: center;
+        font-family: "Pacifico", cursive;
+        font-size: xx-large;
+    }
+
+    .Logo_aux {
+        margin: 20px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+    .cabecera {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .img2 {
+        width: 100vw;
+        height: 90vh;
+        display: inline-block;
+        text-align: center;
+        background-image: url("../media/psj.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: blur(0.3);
+
+    }
+    .inicio2 {
+        color: white;
+        text-decoration: none;
+
+        text-align: center;
+        display: block;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5px;
+    }
+
+    .inicio2:hover {
+        text-decoration: underline 3px solid white;
+    }
+
+    .login {
+        display: block;
+        padding: 90px;
+        width: 450px;
+        height: 450px;
+        margin-top: 10%;
+        color: aliceblue;
+        display: inline-block; 
+        border-radius: 10px;
+        background-color: rgba(24, 70, 92, 0.2);
+        backdrop-filter: blur(5px);
+        box-shadow: 0px 2px 10px;
+        text-align: center;
+    }
+
+    .login_options {
+        margin: 10px;
+        display: inline-block;
+    
+    }
+
+    .login_register {
+        margin: 10px;
+    }
+
+    .login input[type="text"], input[type="password"] {
+        display: block;
+        width: 100%;
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+        text-align: center;
+        text-wrap: balance;
+        
+    }
+
+    .login a {
+        margin: 10px;
+        color: white;
+        text-decoration: underline;
+        
+    }
+
+    .login button {
+        width: 100%;
+        height: 11%;
+        text-align: center;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(255, 255, 255,0.3);
+        color: white;
+        cursor: pointer;
+    }
+
+    .login button:hover {
+
+        box-shadow: -20px 20px 80px 20px white;
+    }
